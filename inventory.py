@@ -15,17 +15,20 @@ pd.set_option('display.max_rows',200)
 result = pd.merge(master, inv, how='left',on='Name',suffixes=(' 1', ' 2'))
 df=result.groupby(['Lab','Experiment'])
 
-def status( list ):
-    if list['Stock']>list['Required']:
-        return 'Good'
+
+def status(dX):
+    if (dX['Stock'] - dX['Required']) / dX['Required'] > 1.2:
+        return 'No'
     else:
-        return 'Low'
+        return 'Re-Order'
 invCompare = result[['Name','Lab','Unit','Required','Stock']]
 compare = pd.DataFrame({'Name': invCompare['Name'], 'Status': invCompare['Stock'] >= invCompare['Required'],'Projection': invCompare['Stock']-invCompare['Required']*4})
 
 invCompare = pd.merge(invCompare,compare,how='left')
 dd = invCompare
-gnoes = pd.DataFrame({'Name':invCompare['Name'],'Stock':dd['Stock'],'Required':dd['Required'],'Pojection':dd['Projection']<=0,'Remaining':dd['Stock']/dd['Required']})
+gnoes = pd.DataFrame(
+    {'Name': invCompare['Name'], 'Stock': dd['Stock'], 'Required': dd['Required'], 'Pojection': dd['Projection'] <= 0,
+     'Remaining': dd['Stock'] - dd['Required'], 'Status': dd.apply(status, axis=1)})
 print(gnoes.to_string())
 #print(invCompare[['Name','Lab','Unit','Required','Stock','Status','Projection']].to_string())
 
