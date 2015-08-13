@@ -4,7 +4,7 @@ import numpy as np
 
 stock = pd.read_csv('data/inv_stock.csv',encoding='utf-8',header=0)
 master = pd.read_csv('data/inv_lab.csv',encoding='utf-8',header=0)
-
+# TODO  Incorpate Desk and Locker assignments
 master['Required'] = master['Required'].astype(float)
 master.rename(columns={'Notes':'Preperation'},inplace=True)
 inv = stock[['Name','Stock','Containers','Location','Notes']]
