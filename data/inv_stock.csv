@@ -31,7 +31,8 @@ Burets,none,Equipment,60,none,"CNSB 230, CNSB 232, CNSB 233, CNSB 235",15 burets
 Caffeine,g,Reagent,1750,4 bottles,"CNSB 121, CNSB 122",
 Calcium Chloride (anhydrous),g,Reagent,5000,more than 10 bottles,"CNSB 121, CNSB 122",many of the bottles may be comprimised by moisture
 Calcium Chloride 0.5M,mL,Solution,1500,"1x2.5L bottle, 3 bottles",CNSB 121,
-Calibration Buffer 4.0 (red),mL,Reagent,500,2 bottles,CNSB 121,
+Calibration Buffer 4.0 (red),mL,Consumable,500,2 bottles,CNSB 121,
+Paper Towels,none,Consumable,500,2 bottles,CNSB 121,
 Calorimeters,none,Equipment,24,none,CNSB 121,
 Centrifuges,none,Equipment,24,none,"CNSB 230, CNSB 232, CNSB 233, CNSB 235",6 centrifuges per room
 Chalk Pieces,none,Equipment,30,2 beakers,CNSB 121,"One edge filed at a 45 degree angle, height of 1 inch"
@@ -65,7 +66,7 @@ Lead (IV) Oxide,g,Reagent,500,4 bottles,CNSB 121,
 "Lead, granulated",g,Reagent,1000,4 bottles,CNSB 121,"CNSB 122 has more in stock, not inventoried yet"
 Lithium Chloride,g,Reagent,1000,8 bottles,CNSB 121,"CNSB 122 has more in stock, not inventoried yet"
 Litmus Paper,none,Reagent,1000,more than 10 boxes,CNSB 122,
-"Magnesium , ribbon ",spools,Reagent,2,2 bottles,CNSB 121,
+"Magnesium , ribbon",spools,Reagent,2,2 bottles,CNSB 121,
 Magnesium turnings,g,Reagent,1000,4 bottles,"CNSB 122 has more in stock, not inventoried yet",
 "Magnesium, granulated",g,Reagent,1000,4 bottles,"CNSB 122 has more in stock, not inventoried yet",
 Maleic Anhydride,g,Reagent,2750,5 bottles,"CNSB 121, CNSB 122",
@@ -119,8 +120,8 @@ Universal Indicator,mL,Reagent,2000,2 bottles,CNSB 121,
 Unknown Copper Salts,g,Mixture,1500,6 bottles,CNSB 121,"3 unknowns, A (copper (II) acetate), B (copper (II) sulphate), C (copper (II) chloride)"
 Urea,g,Reagent,1500,"2 bottles, 1 box","CNSB 121, CNSB 122",
 Vanillin,g,Reagent,50,1 bottle,CNSB 121,
-Wooden Splints,none,Disposable,8000,8 boxes,CNSB 122,
-"Xylene (ortho, meta or para)",mL,Reagent,2000,3 bottles,"CNSB 121, CNSB 122D","CNSB 122D has more in stock, not inventoried yet"
+Wood Splints,none,Disposable,8000,8 boxes,CNSB 122,
+"Xylene",mL,Reagent,2000,3 bottles,"CNSB 121, CNSB 122D","CNSB 122D has more in stock, not inventoried yet"
 "Zinc, dust",g,Reagent,1000,4 bottles,CNSB 121,
 "Zinc, granulated",g,Reagent,6000,"4 bottles, 2 boxes and many bottles","CNSB 121, CNSB 122","4 lab bottles and many more in stockroom, large excess"
 Iron (II) Sulfate,g,Reagent,1000,2 bottles,CNSB 121,
