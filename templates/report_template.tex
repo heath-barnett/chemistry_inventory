@@ -1,0 +1,27 @@
+\documentclass{article}
+
+\begin{document}
+
+\begin{itemize}
+     \BLOCK{for row in data}
+      \item \VAR{row.Term}  - \VAR{row.Description}
+     \BLOCK{endfor}
+\end{itemize}
+
+\begin{table}
+  \centering
+  \caption{Colligative Property Data}
+
+  \begin{tabular}{|c|c|c|c|}
+    \toprule
+    Time (sec) & Temperature ($^o$C) \tabularnewline
+    \midrule
+    \BLOCK{for row in collig}
+      \VAR{collig.Time} & \VAR{collig.Temp_1} & \VAR{collig.Temp_2} & \VAR{collig.Temp_3} \tabularnewline
+    \BLOCK{endfor}
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+
+\end{document}
