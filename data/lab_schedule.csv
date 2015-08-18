@@ -1,5 +1,5 @@
 Class,Section,Instructor,PreLab,Lab,Shift,Desk
-1003,40235,Sharon,244,141,Afternoon,x
+1003,40235,Sharon,244,141,Afternoon,Chem1003A
 1009,40248,Gary,100,230,Afternoon,Chem1009A
 1009,40250,Gary,343,230,Afternoon,Chem1009B
 1009,40252,Gary,343,230,Afternoon,Chem1009C
@@ -13,7 +13,7 @@ Class,Section,Instructor,PreLab,Lab,Shift,Desk
 1009,42983,Brandy,243,233,Afternoon,Chem1009B
 1010,40257,Emad,101,233,Afternoon,Chem1010A
 1009,40254,Andrew,100,233,Night,Chem1009C
-1009,42982,Heath,243,233,Night,x
+1009,42982,Heath,243,233,Night,Chem1009A
 1003,40232,Sahar,345,235,Afternoon,Chem1003A
 1003,40234,Sahar,101,235,Afternoon,Chem1003B
 1003,42021,Sharon,345,232,Afternoon,Chem1003A
@@ -25,4 +25,4 @@ Class,Section,Instructor,PreLab,Lab,Shift,Desk
 2031,40264,Richard,243,242,Afternoon,Chem2031A
 2031,40266,Richard,243,242,Afternoon,Chem2031B
 2031,43035,Andrew,100,242,Afternoon,Chem2031C
-1010,43888,Staff,TBA,TBA,TBA,x
+1010,43888,Staff,TBA,233,TBA,Chem1010B
