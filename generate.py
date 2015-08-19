@@ -8,6 +8,10 @@ data = pd.read_csv('data/lab_schedule.csv', header=0)
 desk = pd.read_csv('data/All_Rooms.csv',names=['Room','Desk','ID','Combo'],header=0)
 desk['Combo'] = desk['Combo'].str.replace('\'','')
 
+x={Instructor: ['Heath Barnett','Buddy Barnett','Sharon Cruse','Emad El-Giar','Sahar Atwa','Andrew Cox','Richard Thurlkill','Gary Findley','Brandy Courtney'],
+   Email: ['hbarnett@ulm.edu','bbarnett@ulm.edu','cruse@ulm.edu', 'elgiar@ulm.edu','atwa@ulm.edu','cox@ulm.edu','thurlkill@ulm.edu','g.l.findley@ulm.edu','courtney@ulm.edu'],
+   Office: [204,206,201,200,227,205,203,202,224]}
+
 Chem1003A=[3,18,33,48,63,78,91,108,123,138,153,168]
 Chem1003B=[9,24,39,54,69,84,99,114,129,144,159,174]
 Chem1009A=[5,17,35,47,65,77,95,107,125,137,155,167]
