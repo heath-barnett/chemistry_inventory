@@ -1,52 +1,21 @@
-\documentclass[12pt]{article}
+\documentclass{article}
 \usepackage[margin=0.5in]{geometry}
 \usepackage{siunitx}
 \usepackage{booktabs}
 
-\renewcommand{\arraystretch}{1.1}
-
-
 \begin{document}
-\thispagestyle{empty}
 
-\begin{center}
-	{\huge\textbf{\underline{ Desk and Locker Combination Key}}}
-\end{center}
-
-
-\begin{table}[h]
+\begin{table}
   \centering
-  \begin{tabular}{ccccc}
-
-  \textbf{Class} & \VAR{cid} & {\qquad} &\textbf{Schedule} & \VAR{schedule} \\
-  \textbf{Section} & \VAR{section} & {\qquad} & \textbf{Semester} & \VAR{semester} \\
-  \textbf{Lab} & \VAR{lab} & {\qquad} & \textbf{Instructor} & \VAR{instructor} \\
+  \begin{tabular}{|c|c|c|c|}
+  \hline
+    Class & Section & Instructor & Lab \\ \hline
+  \VAR{cid} & \VAR{section} & \VAR{instructor} & \VAR{lab} \\ \hline
   \end{tabular}
 \end{table}
- \vspace{0.1in}
-\begin{minipage}{0.4\textwidth}
+
 
 \VAR{dlc_sort}
 
-\end{minipage}
-\begin{minipage}{0.4\textwidth}
-\underline{{\large \textbf{Master Lock Combination Instructions}}}
-\begin{enumerate}
-\item Copy your desk number and lock combination to a secure location that you will have access to.
-\item Turn the dial three times to the right, then stop when the first number lines up with the indicator.
-\item Turn the dial to the left one full turn (the first number in the combination passes the arrow), continue turning until the second number in the combination is beneath the arrow.
-\item Turn the dial to the right, stopping when the third number in the combination is beneath the arrow.
-\item Pull the lock shackle to open.
-\end{enumerate}
-\end{minipage}
-\begin{itemize}
-\item If the lock on your drawer does not have the correct ID or the lock is jammed/rusted shut or is missing, notify the stockroom personel on duty in CNSB 122.
-\item If your draw is missing glassware, replacement parts/pieces can be found in CNSB 236 (the mass balance room). If you can not find a missing piece of equipment in CNSB 236 you must report to the stockroom, CNSB 122, to acquire the part.
-\item The stockroom is currently low on the following items, your intructor may have special instructions regarding other missing items.
-\begin{itemize}
-\item 400 mL Griffan Beakers: Any Griffan Beaker larger than 400 mL can be substituted.
-\item Flame loops: Extra flame loops will be provided on the day they are needed.
-\item Red Rubber Dubbers: Not needed, do not worry about finding a replacement.
-\end{itemize}
-\end{itemize}
+
 \end{document}
