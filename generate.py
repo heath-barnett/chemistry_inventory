@@ -66,15 +66,19 @@ for i, row in data.iterrows():
     section = row['Section']
     instructor = row['Instructor']
     lab = row['Lab']
-    dlc = desk[desk['Desk'].isin([row['Desk']]) & (desk['Room'] == np.int16(lab))]
+    schedule = row['Schedule']
+    semester = row['Semester']
+    dlc_id = row['Desk']
+    dlc = desk[desk['Desk'].isin(eval(dlc_id)) & (desk['Room'] == np.int16(lab))]
     dlc_sort = dlc.sort_index(by='Desk',ascending=True)
-    print(dlc)
+    dlc_sort = dlc_sort[['Desk', 'ID', 'Combo']]
     dlc_sort = dlc_sort.to_latex(index=False)
-
-    # filename = str(cid) + '_' + str(section) + '_Desk_Combinations.tex'
-    # folder = 'latex'
-    # outpath = os.path.join(folder,filename)
-    # outfile = open(outpath,'w')
-    # outfile.write(template.render(cid = cid, section = section, lab = lab, instructor = instructor, dlc = dlc_sort))
-    # outfile.close()
-    # os.system("pdflatex -output-directory=" + folder + " " + outpath)
+    filename = str(cid) + '_' + str(section) + '_Desk_Combinations.tex'
+    folder = 'latex'
+    outpath = os.path.join(folder, filename)
+    outfile = open(outpath, 'w')
+    outfile.write(
+        template.render(cid=cid, section=section, lab=lab, instructor=instructor, schedule=schedule, semester=semester,
+                        dlc_sort=dlc_sort))
+    outfile.close()
+    os.system("pdflatex -output-directory=" + folder + " " + outpath)

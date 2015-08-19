@@ -1,28 +1,28 @@
-Class,Section,Instructor,PreLab,Lab,Shift,Desk
-1003,40235,Sharon,244,141,Afternoon,Chem1003A
-1009,40248,Gary,100,230,Afternoon,Chem1009A
-1009,40250,Gary,343,230,Afternoon,Chem1009B
-1009,40252,Gary,343,230,Afternoon,Chem1009C
-1010,40258,Andrew,TBA,230,Afternoon,Chem1010A
-1009,40249,Andrew,143,232,Afternoon,Chem1009A
-1009,40251,Sahar,345,232,Afternoon,Chem1009B
-1009,40253,Sahar,100,232,Afternoon,Chem1009C
-1009,43010,Brandy,243,235,Afternoon,Chem1009A
-1009,43406,Andrew,343,235,Night,Chem1009B
-1009,40246,Emad,101,233,Afternoon,Chem1009A
-1009,42983,Brandy,243,233,Afternoon,Chem1009B
-1010,40257,Emad,101,233,Afternoon,Chem1010A
-1009,40254,Andrew,100,233,Night,Chem1009C
-1009,42982,Heath,243,233,Night,Chem1009A
-1003,40232,Sahar,345,235,Afternoon,Chem1003A
-1003,40234,Sahar,101,235,Afternoon,Chem1003B
-1003,42021,Sharon,345,232,Afternoon,Chem1003A
-1003,44085,Sahar,345,232,Night,Chem1003B
-1009,40255,Emad,243,235,Night,Chem1009C
-2031,40261,Buddy,100,240,Afternoon,Chem2031A
-2031,40263,Buddy,244,240,Afternoon,Chem2031B
-2031,40265,Buddy,244,240,Afternoon,Chem2031C
-2031,40264,Richard,243,242,Afternoon,Chem2031A
-2031,40266,Richard,243,242,Afternoon,Chem2031B
-2031,43035,Andrew,100,242,Afternoon,Chem2031C
-1010,43888,Staff,TBA,233,TBA,Chem1010B
+Class,Section,Instructor,PreLab,Lab,Schedule,Desk,Semester
+1003,40232,Sahar Atwa,345,235,Monday 3:00pm - 5:00pm,Chem1003A,Fall 2015
+1003,40234,Sahar Atwa,101,235,Tuesday 3:00pm - 5:00pm,Chem1003B,Fall 2015
+1003,40235,Sharon Cruse,244,141,Wednesday 3:00pm - 5:00pm,Chem1003A,Fall 2015
+1009,40246,Emad El-Giar,101,233,Monday 3:00pm - 5:00pm,Chem1009A,Fall 2015
+1009,40248,Gary Findley,100,230,Tuesday 3:00pm - 5:00pm,Chem1009A,Fall 2015
+1009,40249,Andrew Cox,143,232,Tuesday 3:00pm - 5:00pm,Chem1009A,Fall 2015
+1009,40250,Gary Findley,343,230,Wednesday 3:00pm - 5:00pm,Chem1009B,Fall 2015
+1009,40251,Sahar Atwa,345,232,Wednesday 3:00pm - 5:00pm,Chem1009B,Fall 2015
+1009,40252,Gary Findley,343,230,Monday 3:00pm - 5:00pm,Chem1009C,Fall 2015
+1009,40253,Sahar Atwa,100,232,Thursday 3:00pm - 5:00pm,Chem1009C,Fall 2015
+1009,40254,Andrew Cox,100,233,Tuesday 3:00pm - 5:00pm,Chem1009C,Fall 2015
+1009,40255,Emad El-Giar,243,235,Tuesday 3:00pm - 5:00pm,Chem1009C,Fall 2015
+1010,40257,Emad El-Giar,101,233,Thursday 3:00pm - 5:00pm,Chem1010A,Fall 2015
+1010,40258,Andrew Cox,TBA,230,Thursday 3:00pm - 5:00pm,Chem1010A,Fall 2015
+2031,40261,Buddy Barnett,100,240,Monday 3:00pm - 5:00pm,Chem2031A,Fall 2015
+2031,40263,Buddy Barnett,244,240,Tuesday 3:00pm - 5:00pm,Chem2031B,Fall 2015
+2031,40264,Richard Thurlkill,243,242,Tuesday 3:00pm - 5:00pm,Chem2031A,Fall 2015
+2031,40265,Buddy Barnett,244,240,Thursday 3:00pm - 5:00pm,Chem2031C,Fall 2015
+2031,40266,Richard Thurlkill,243,242,Thursday 3:00pm - 5:00pm,Chem2031B,Fall 2015
+1003,42021,Sharon Cruse,345,232,Thursday 3:00pm - 5:00pm,Chem1003A,Fall 2015
+1009,42982,Heath Barnett,243,233,Monday 7:00pm - 9:00pm,Chem1009A,Fall 2015
+1009,42983,Brandy Courtney,243,233,Wednesday 3:00pm - 5:00pm,Chem1009B,Fall 2015
+1009,43010,Brandy Courtney,243,235,Monday 3:00pm - 5:00pm,Chem1009A,Fall 2015
+2031,43035,Andrew Cox,100,242,Monday 7:00pm - 9:00pm,Chem2031C,Fall 2015
+1009,43406,Andrew Cox,343,235,Monday 7:00pm - 9:00pm,Chem1009B,Fall 2015
+1010,43888,Staff,TBA,233,TBA,Chem1010B,Fall 2015
+1003,44085,Sahar Atwa,345,232,Monday 7:00pm - 9:00pm,Chem1003B,Fall 2015
