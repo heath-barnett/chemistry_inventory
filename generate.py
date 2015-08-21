@@ -14,12 +14,13 @@ faculty={'Instructor':['Heath Barnett','Buddy Barnett','Sharon Cruse','Emad El-G
 
 df_faculty = pd.DataFrame(faculty)
 
-
+Chem141 = []
 Chem1003A=[3,18,33,48,63,78,91,108,123,138,153,168]
 Chem1003B=[9,24,39,54,69,84,99,114,129,144,159,174]
 Chem1009A=[5,17,35,47,65,77,95,107,125,137,155,167]
 Chem1009B=[8,20,38,50,68,80,98,110,128,140,158,170]
 Chem1009C=[11,23,41,53,71,83,101,113,131,143,161,173]
+Chem1009Z = [4,22,32,46,64,82,92,106,122,136,152,166]
 # orphans ?? 15,30,45,60,75,90,105,120,135,150,165,180
 Chem1010A=[1,10,19,28,32,40,49,58,61,70,79,88,91,100,109,118,121,130,139,148,151,160,169,178]
 Chem1010B=[2,7,16,25,34,43,52,59,62,67,76,85,94,103,112,119,124,133,142,149,154,163,172,179]
@@ -59,7 +60,7 @@ for i, row in data.iterrows():
     schedule = row['Schedule']
     semester = row['Semester']
     dlc_id = row['Desk']
-    dlc = desk[desk['Desk'].isin(eval(dlc_id)) & (desk['Room'] == np.int16(lab))]
+    dlc = desk[(desk['Desk'].isin(eval(dlc_id))) & ((desk['Room'] == np.int16(lab)))]
     dlc_sort = dlc.sort_index(by='Desk',ascending=True)
     dlc_sort = dlc_sort[['Desk', 'ID', 'Combo']]
     dlc_sort = dlc_sort.to_latex(index=False)
